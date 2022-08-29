@@ -1,0 +1,78 @@
+.login{
+    height: 90vh;
+    display: flex;
+    padding-top: 10vh;
+    background-color: var(--white);
+}
+.login-1{
+    width: 50%;
+}
+.login-1 img{
+    height: 90vh;
+    width: auto;
+}
+.login-2{
+    width: 50%;
+    padding: 0 10%;
+    padding-top: 20vh;
+     
+}
+.login-2 h1{
+    color: var(--general);
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+}
+.login-2 form{
+    width: 70%;
+    padding: 0 15%;
+    padding-top: 2vh;
+}
+.login input{
+    
+}
+.login-email, .login-password{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.83);
+    border: 2px solid rgba(251, 221, 187, 0.51);
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 5vh;
+    padding: 6px 16px;
+    width: 90%;
+}
+.login-email:focus, .login-password:focus{
+    border: 2px solid var(--general);
+}
+.login-submit{
+    background-color: var(--general);
+    color: var(--yellow-text);
+    height: 53px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px 16px;
+    border: 0;
+    cursor: pointer;
+}
+.create{
+    width: 70%;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+.login span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    color: var(--general);
+    cursor: pointer;
+}

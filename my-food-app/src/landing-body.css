@@ -1,0 +1,147 @@
+.landing-body{
+    color: var(--white);
+    /* height: 100vh; */
+    padding: 100px 0px 50px;
+}
+.landing-body-1{
+    display: flex;
+    padding: 0 5%;
+    padding-top: 3vh;
+}
+.landing-body-1-first{
+    width: 55%;
+  
+}
+.landing-body-1 h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+}
+.landing-body-1 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin-top: -30px;
+    padding-bottom: 2vh;
+}
+.landing-body-1-assets{
+    display: flex;
+    gap: 1%;
+}
+.landing-body-1-assets img{
+    width: 15%;
+}
+.landing-body-1-second{
+    width: 35%;
+    padding-left: 10%;
+    padding-top: 5vh;
+}
+
+.landing-body-1-second img{
+    width: 80%;
+    
+}
+/* second-div */
+.landing-body-2{
+    text-align: center;
+    width: 40%;
+    margin: 0 30%;
+    padding-top: 7vh;
+}
+.landing-body-2 h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 13px;
+}
+.landing-body-2 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+}
+/* third-div */
+.landing-body-3{
+    padding: 0 5%;
+    padding-top: 11vh;
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.landing-food{
+    width: 25%;
+    text-align: center;
+}
+.landing-food img{
+    width: 80%;
+}
+.landing-food h6{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 0px;
+    color: var(--yellow-text);
+}
+.landing-food p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin-top: -4vh;
+}
+/* fourth-div */
+.landing-body-4{
+    padding: 0 5%;
+    padding-top: 5vh;
+    display: flex;
+    gap: 10%;
+    
+}
+.landing-body-con{
+    width: 45%;
+}
+.landing-body-con h5{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 33px;
+}
+.landing-body-con p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin-top: -3vh;
+}
+.landing-body-form {
+    width: 40%;
+    padding-top: 15vh;
+   
+}
+.landing-body-form form{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+}
+.landing-email{
+    width: 60%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border: 0;
+    outline: 0;
+    height: 35px;
+    padding: 5px 18px;
+    color: var( --dark-text);
+    background-color: var(--dark-text-background);
+}
+.landing-submit{
+    width: 40%;
+    border: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    outline: 0;
+    border-radius: 5px;
+    height: 45px;
+    background-color: var(--yellow-background);
+    color: var(--black);
+}

@@ -1,0 +1,80 @@
+.registers{
+    display: flex;
+    height: 90vh;
+    padding-top: 10vh;
+    background-color: var(--white);
+}
+.register-1{
+    width: 50%;
+}
+.register-1 img{
+    height: 90vh;
+    width: 100%;
+}
+.register-2{
+    width: 50%;
+    padding: 0 10%;
+    padding-top: 10vh;
+     
+}
+.register-2 h1{
+    color: var(--general);
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+}
+.register-2 form{
+    width: 70%;
+    padding: 0 15%;
+    padding-top: 2vh;
+}
+
+.register-name, .register-email, .register-password{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.83);
+    border: 2px solid rgba(251, 221, 187, 0.51);
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 5vh;
+    padding: 6px 16px;
+    width: 90%;
+}
+.register-submit{
+    background-color: var(--general);
+    color: var(--yellow-text);
+    height: 53px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px 16px;
+    border: 0;
+    
+
+}
+.register-create{
+    width: 50%;
+    padding: 0 25%;
+    display: flex;
+    gap: 7px;
+    padding-top: 2vh;
+}
+.register-create span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    color: var(--general);
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px;
+}
+.register-create span a{
+    color: var(--general);
+    font-style: bold;
+}
